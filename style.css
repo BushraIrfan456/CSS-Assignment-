@@ -1,0 +1,58 @@
+body{
+background-color: lightgrey;
+}
+ .parent{
+    color: black;
+    margin: 0 auto;
+    width: 600;
+}
+h1{
+  font-style: italic;
+  background-color: ghostwhite
+}
+.child{
+  width: 1000;
+}
+
+.child1{
+    background-color: rgb(0,100,200);
+}
+.child2{
+    background-color: rgba(1, 105, 205);
+}
+.child3{
+    background-color:rgb(7, 110, 210);
+}
+.child4{
+background-color:rgb(09, 120, 220);
+}
+.child5{
+    background-color:rgb(12, 130, 230);
+}
+.child6{
+    background-color:rgb(15, 140, 240);
+}
+.child7{
+    background-color: rgb(10, 150,250);
+}
+.child8{
+    background-color: green;
+}
+.child9{
+    background-color:rgb(265, 195, 227) ;
+}
+.child10{
+    background-color:rgb(255, 188, 217);
+}
+.child11{
+    background-color:rgb(285, 175, 205);
+}
+.child12{
+    background-color:rgb(290, 170, 210);
+}
+.child13{
+    background-color: hotpink;
+}
+.child14{
+    background-color:deeppink;
+}
