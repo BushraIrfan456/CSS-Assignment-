@@ -1,58 +1,200 @@
-body{
-background-color: lightgrey;
-}
- .parent{
-    color: black;
-    margin: 0 auto;
-    width: 600;
-}
-h1{
-  font-style: italic;
-  background-color: ghostwhite
-}
-.child{
-  width: 1000;
+body {
+background-color: darkgray;
+    padding: 50px;
+    width: 90%;
 }
 
-.child1{
-    background-color: rgb(0,100,200);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-.child2{
-    background-color: rgba(1, 105, 205);
+
+.container {
+    background-color: floralwhite;
+    width: 900px;
+    height: 1000px;
+    padding: 5px;
+    display: flex;
+    border-radius: 10px;
 }
-.child3{
-    background-color:rgb(7, 110, 210);
+
+.main {
+    width: 700px;
+    height: 900px;
+    padding: 10px;
+    margin: 10px;
+    background-color: mediumorchid;
+    border-radius: 10px;
 }
-.child4{
-background-color:rgb(09, 120, 220);
+
+.picture-column{
+    margin: 10px;
+    width: 285px;
+    height: 195px;
+    padding: 15px;
+    margin-top: 60px;
+    background-color: plum;
+    border-radius: 10px;
+    color: white;
 }
-.child5{
-    background-color:rgb(12, 130, 230);
+
+img {
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 75px;
+    height:75px;
 }
-.child6{
-    background-color:rgb(15, 140, 240);
+
+.one {
+    padding-left: 20px;
+    padding-top: 10px;
 }
-.child7{
-    background-color: rgb(10, 150,250);
+
+.two {
+
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
 }
-.child8{
-    background-color: green;
+
+h2 {
+    padding-bottom: 40px;
 }
-.child9{
-    background-color:rgb(265, 195, 227) ;
+
+.para {
+
+    margin-top: 10px;
 }
-.child10{
-    background-color:rgb(255, 188, 217);
+
+.name {
+    display: inline-block;
 }
-.child11{
-    background-color:rgb(285, 175, 205);
+
+.name h5 {
+    margin-top: -20px;
+    margin-left: 10px;
 }
-.child12{
-    background-color:rgb(290, 170, 210);
+
+.free {
+    margin-left: 10px;
+    margin-top: -5px;
+    color: #000;
 }
-.child13{
-    background-color: hotpink;
+
+
+/* -------------------second_form---------------------------- */
+.second_form {
+    width: 800px;
+    height: 800px;
+    margin: 10px;
+    padding: 20px;
+    display: inline;
+    border-radius: 1%;
 }
-.child14{
-    background-color:deeppink;
+
+.lookingfor {
+    margin-top: 50px;
+    color: #000;
+}
+
+.loo {
+    margin-top: -30px;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 90%;
+    height: 100px;
+}
+
+.loo p {
+    margin: 20px 0px 30px 10px;
+    color: #000000;
+}
+
+
+.radio {
+    width: 100%;
+    margin-top: -10px;
+    display: flex;
+}
+
+
+.radio1 {
+    border: 1px solid #000000;
+    margin-top: -15px;
+    padding: 10px;
+    border-radius: 6px;
+    width: 240px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.radio2 {
+    border: 1px solid #000000;
+    margin-top: -15px;
+    padding: 10px;
+    border-radius: 6px;
+    width: 240px;
+    height: 40px;
+    margin-left: 23px;
+    margin-bottom: 10px;
+}
+
+
+.radio input {
+    width: 15px;
+    height: 8px;
+    text-align: center;
+    background-color: yellow;
+    margin-bottom: 500px;
+}
+
+.third input {
+    border: 1px solid #000000;
+    margin-top: 2px;
+    padding: 10px;
+    border-radius: 6px;
+    width: 500px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+button {
+    border: 1px solid #000000;
+    margin-top: 2px;
+    padding: 10px;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #008000;
+    color: white;
+}
+
+/* ------------------------------------------------ */
+
+.conts {
+    background-color: floralwhite;
+    width: 900px;
+    height: 1000px;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.inputs {
+    margin-top: 30px;
+    
+}
+
+.full {
+    border: 1px solid #000000;
+    margin-top: 2px;
+    padding: 10px;
+    border-radius: 6px;
+    width: 500px;
+    height: 40px;
+    margin-bottom: 10px;
 }
